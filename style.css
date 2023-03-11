@@ -44,10 +44,17 @@ label:hover > .pointer{
 }
 
 label{
-    display:flex;
+    /* display:flex; */
     align-items: center;
+    /* justify-content: space-evenly; */
+    /* border:1px solid #000 ; */
+}
+
+.meme-header{
+    display: flex;
     justify-content: space-evenly;
 }
+
 
 .meme-body{
     width: 100%;
@@ -62,12 +69,18 @@ label{
     /* height: auto; */
 }
 
+
 .memes-item:hover .meme-body img{
     height: auto;
     transition: all 1s linear ;
     /* opacity: 1; */
 }
 
+.toggler:checked +.memes-item-label .meme-body {
+    height:40rem;
+    /* overflow-y: auto; */
+    /* height: auto; */
+}
 
 img{
     max-width: 40%;
