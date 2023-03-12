@@ -123,6 +123,9 @@ img {
     .pointer {
       opacity: 1 !important;
     }
+    .meme-header-letter {
+        color: black ;
+    }
 }
 
 
