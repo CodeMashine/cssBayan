@@ -14,7 +14,6 @@ li{
 .wrapper{
     max-width: 50%;
     margin:0 auto ;
-    padding : 0 -10px ;
 }
 
 .memes-list{
@@ -40,7 +39,6 @@ label:hover {
 }
 
 .memes-item-label:hover .pointer{
-    /* opacity: 1; */
     transform : rotate(1turn) ;
 }
 
@@ -71,8 +69,6 @@ label{
 .meme-body{
     margin: 0 auto;
     width: 80%;
-    /* overflow: hidden; */
-    /* transition: all 1s linear ; */
 }
 
 img{
