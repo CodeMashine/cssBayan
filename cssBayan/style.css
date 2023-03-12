@@ -25,6 +25,7 @@ li {
 .memes-list {
   font-size: 2em;
   font-weight: 500;
+  border-radius:10px ;
 }
 
 .list-header {
@@ -49,6 +50,7 @@ label:hover {
 .memes-item {
   text-align: center;
   border: 1px solid black;
+  border-radius:10px ;
 }
 
 label {
@@ -61,8 +63,13 @@ label {
   align-items: center;
 }
 
+.meme-header{
+    border:1px solid black ;
+    border-radius:10px ;
+}
+
 .meme-header-letter {
-  /* color: blue; */
+  color: blue;
   transition: color 0.3s linear;
 }
 
