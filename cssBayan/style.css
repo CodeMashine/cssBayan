@@ -62,7 +62,7 @@ label {
 }
 
 .meme-header-letter {
-  color: blue;
+  /* color: blue; */
   transition: color 0.3s linear;
 }
 
