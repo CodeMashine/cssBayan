@@ -58,6 +58,7 @@ label {
 .meme-header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .meme-header-letter {
