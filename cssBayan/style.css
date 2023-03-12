@@ -111,15 +111,19 @@ img {
   transition: all 1s linear;
 }
 
+@media(hover:none){
+    .pointer {
+      opacity: 1 !important;
+    }
+}
+
+
 @media screen and (max-width: 820px) {
   .wrapper {
     width: 90%;
   }
   .memes-list {
     max-width: 100%;
-  }
-  .pointer {
-    opacity: 1 !important;
   }
   .memes-list {
     font-size: 1em;
